@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>CSS3 Style Property Basic</title>
+  <style>
+	.box { 
+		border-width: thick;
+		border-style: dashed;
+		border-color: black;
+		
+		border-radius: 10px;
+		}
+  </style>
+ </head>
+ <body>
+	<div class="box">
+		<h1>Lorem ipsum dolor sit amet</h1>
+    </div>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+ </body>
+</html>

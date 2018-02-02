@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>과일 수입</title>
+ </head>
+ <body>
+	<h3>과일 수입</h3>
+	<hr />
+	<table border = "1">
+		<tr>
+			<td colspan="3">과일 수입 표</td>
+		</tr>
+		<tr>
+			<th>사과</th>
+			<th>바나나</th>
+			<th>망고</th>
+		</tr>
+		<tr>
+			<td><img src="apple.jpg" width="150"></td>
+			<td><img src="banana.jpg" width="150"></td>
+			<td><img src="mango.jpg" width="150"></td>
+		</tr>
+		<tr>
+			<th>페루</th>
+			<th>필리핀</th>
+			<th>호주</th>
+		</tr>
+ </body>
+</html>

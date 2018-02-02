@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>나의 셀카</title>
+ </head>
+ <body>
+	<h3>나의 셀카</h3>
+	<hr />
+	<table border = "0">
+		<tr>
+			<th colspan="3">나의 셀카</th>
+		</tr>
+		<tr>
+			<td><img src="pg.jpg"></td>
+			<td><img src="pg.jpg"></td>
+			<td><img src="pg.jpg"></td>
+		</tr>
+ </body>
+</html>

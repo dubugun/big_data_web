@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>CSS3 Style Property Basic</title>
+  <style>
+	body {
+		background-color: #E7E7E8;
+		background-image: url('bg.jpg'), url('pg.jpg');
+		background-size;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: 0px 50%;
+		}
+  </style>
+ </head>
+ <body>
+	<div class="box">
+		<h1>Lorem ipsum dolor sit amet</h1>
+    </div>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+ </body>
+</html>
