@@ -199,5 +199,13 @@ dat4[idx,]
 
 row_index_out <- rownames(dat4[idx,])
 
+dat_worldcup <-subset(dat4,  subset= stat_name =='월드컵경기장')
+dat_worldcup <- dat_worldcup[order(dat_worldcup$income_date),]
+dat_out <- subset(dat_worldcup, subset=rownames(dat_worldcup) %in% row_index_out)
+plot(on_tot ~ income_date, data=dat_worldcup, type='l', ylab='탑승객수', xlab='')
+points(on_tot ~ income_date, data= dat_out, col='red', pch=19)
+text(x=dat_out$income_date, y=dat_out$on_tot, labels=dat_out$income_date, adj=c(1.1,1.1), cex=0.8)
 
 
+plot.new()
+dev.new()
