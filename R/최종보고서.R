@@ -207,5 +207,5 @@ points(on_tot ~ income_date, data= dat_out, col='red', pch=19)
 text(x=dat_out$income_date, y=dat_out$on_tot, labels=dat_out$income_date, adj=c(1.1,1.1), cex=0.8)
 
 
-plot.new()
-dev.new()
+#plot.new()
+#dev.new()
